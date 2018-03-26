@@ -24,7 +24,6 @@ const defaultState = {
   
       case 'ADD_INCOME': {
         const { description, amount } = action.payload;
-        console.log('amount inside reducer' + amount);
         return {
           description: '',
           amount: '',
